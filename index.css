@@ -13,6 +13,7 @@
   .left {
     left: 0;
     background-color: #111;
+    color : white;
   }
   
   /* Control the right side */
@@ -33,5 +34,14 @@
   /* Style the image inside the centered container, if needed */
   .centered img {
     width: 150px;
-    border-radius: 50%;
+    /*border-radius: 100%;*/
   }
+  /*Styling the body of index.html*/
+  body {
+    font-family: Gill Sans, sans-serif;
+    text-align: center;
+  }
+  /* Style all text to be in the center */
+  #text{
+    text-align:center;
+ }
