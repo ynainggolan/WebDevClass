@@ -1,3 +1,13 @@
+.whole{
+    height: 30%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
 /* Split the screen in half */
 .split {
     height: 100%;
@@ -7,13 +17,14 @@
     top: 0;
     overflow-x: hidden;
     padding-top: 20px;
+    
   }
   
   /* Control the left side */
   .left {
     left: 0;
     background-color: #111;
-    color : white;
+    color : red;
   }
   
   /* Control the right side */
@@ -45,3 +56,18 @@
   #text{
     text-align:center;
  }
+
+.container {
+  position: relative;
+  font-family: Arial;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
